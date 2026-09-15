@@ -148,7 +148,7 @@ La m\'ethode g\'en\'erale, valable pour toute question de ce style :
 \begin{lstlisting}
 upvote_cols = ['item_quality_upvote_given', 'communication_upvote_given', 'packaging_upvote_given', 'shipping_speed_upvote_given']
 order["n_upvotes"] = order[upvote_cols].sum(axis=1)
-upvotes_per_seller = order.groupby("seller\_id")["n_upvotes"].sum()
+upvotes_per_seller = order.groupby("seller_id")["n_upvotes"].sum()
 
 warehouses["last_inspection_date"] = pd.to_datetime(warehouses["last_inspection_date"])
 warehouses["days_since_inspection"] = (TODAY - warehouses["last_inspection_date"]).dt.days

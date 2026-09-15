@@ -148,7 +148,7 @@ La m\'ethode g\'en\'erale, valable pour toute question de ce style :
 \begin{lstlisting}
 upvote_cols = ['clarity_upvote_given', 'politeness_upvote_given', 'resolution_speed_upvote_given', 'follow_up_upvote_given']
 ticket["n_upvotes"] = ticket[upvote_cols].sum(axis=1)
-upvotes_per_agent = ticket.groupby("agent\_id")["n_upvotes"].sum()
+upvotes_per_agent = ticket.groupby("agent_id")["n_upvotes"].sum()
 
 headsets["last_inspection_date"] = pd.to_datetime(headsets["last_inspection_date"])
 headsets["days_since_inspection"] = (TODAY - headsets["last_inspection_date"]).dt.days

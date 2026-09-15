@@ -148,7 +148,7 @@ La m\'ethode g\'en\'erale, valable pour toute question de ce style :
 \begin{lstlisting}
 upvote_cols = ['food_temperature_upvote_given', 'politeness_upvote_given', 'packaging_upvote_given', 'punctuality_upvote_given']
 delivery["n_upvotes"] = delivery[upvote_cols].sum(axis=1)
-upvotes_per_courier = delivery.groupby("courier\_id")["n_upvotes"].sum()
+upvotes_per_courier = delivery.groupby("courier_id")["n_upvotes"].sum()
 
 vehicles["last_inspection_date"] = pd.to_datetime(vehicles["last_inspection_date"])
 vehicles["days_since_inspection"] = (TODAY - vehicles["last_inspection_date"]).dt.days
