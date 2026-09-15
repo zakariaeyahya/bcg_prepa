@@ -1,0 +1,290 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2.2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{amssymb}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+\definecolor{bcg}{HTML}{177B4C}
+\definecolor{bg}{HTML}{F4F6F5}
+\definecolor{kw}{HTML}{0B6E99}
+
+\titleformat{\section}{\Large\bfseries\color{bcg}}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.6em}{}
+\setlist{leftmargin=1.4em}
+\pagestyle{fancy}\fancyhf{}
+\rhead{\small BCG X CodeSignal Prep}\lhead{\small Support client}
+\cfoot{\thepage}
+
+\lstset{
+  basicstyle=\ttfamily\small, backgroundcolor=\color{bg},
+  frame=single, framesep=5pt, rulecolor=\color{bg!60!black},
+  breaklines=true, keywordstyle=\color{kw}\bfseries,
+  language=Python, showstringspaces=false, columns=fullflexible,
+}
+
+\newtcolorbox{pat}{colback=bcg!8, colframe=bcg, title=SCH\'EMA \`A RECONNA\^ITRE,
+  fonttitle=\bfseries, breakable, boxrule=0.6pt}
+\newtcolorbox{trap}{colback=red!5, colframe=red!60!black, title=ERREURS FR\'EQUENTES,
+  fonttitle=\bfseries, breakable, boxrule=0.6pt}
+\newtcolorbox{fast}{colback=blue!4, colframe=blue!50!black, title=RACCOURCI PLUS RAPIDE,
+  fonttitle=\bfseries, breakable, boxrule=0.6pt}
+\newtcolorbox{explik}{colback=yellow!8, colframe=orange!70!black, title=COMMENT RAISONNER FACE \`A CETTE QUESTION,
+  fonttitle=\bfseries, breakable, boxrule=0.6pt}
+
+\newcommand{\exhead}[1]{\subsection{#1}}
+
+\begin{document}
+
+\begin{center}
+  {\huge\bfseries\color{bcg} Support client}\\[4pt]
+  {\large Comment raisonner sur Q1 a Q4 -- meme methode que le vrai test BCG X}
+\end{center}
+\vspace{4pt}\hrule\vspace{10pt}
+
+\section{1. Objectif de ce document}
+Ce PDF explique le \textbf{raisonnement}, pas seulement le code, pour
+retrouver les 4 questions du vrai test BCG X CodeSignal (Data analysis,
+Data collecting, Data processing, Classification) transposees sur le sujet support client. La mecanique
+et les pieges sont identiques au vrai test -- seul le vocabulaire change.
+Lisez ce document \textbf{apres} avoir essaye le notebook
+\texttt{notebook/customer\_support\_exercices.ipynb} sans
+aide, chrono en main.
+
+\section{2. Question 1 -- Data analysis}
+
+\exhead{Ce qu'on vous demande vraiment}
+Trois \og insights \fg{} independants a calculer, puis a ranger dans un
+CSV a deux colonnes (\texttt{insight\_type}, \texttt{value}). C'est le
+format canonique de la Q1 : peu importe le nombre d'insights, la structure
+de sortie ne change jamais.
+
+\begin{lstlisting}
+agent = pd.read_csv(f"{DATA}/agents.csv")
+ticket = pd.concat([pd.read_csv(f"{DATA}/tickets_{i}.csv") for i in range(1, 5)], ignore_index=True)
+
+average_rating = agent["rating"].mean()
+pct_second_language = (agent["second_language"] != "no").mean() * 100
+success_rate = (ticket["status"] == "Success").mean() * 100
+\end{lstlisting}
+
+\begin{explik}
+D\'ecoupez toujours en trois reflexes independants :
+\begin{itemize}[nosep]
+  \item \textbf{moyenne simple} -> \texttt{.mean()} sur la colonne
+        demandee, rien de plus ;
+  \item \textbf{pourcentage d'une condition} -> le reflexe
+        \texttt{condition.mean() * 100} (la moyenne d'un bool\'een est
+        exactement sa proportion de \texttt{True}) ;
+  \item \textbf{combiner plusieurs fichiers avant de calculer} ->
+        \texttt{pd.concat([...], ignore\_index=True)}. Piege classique :
+        calculer un taux fichier par fichier puis faire la moyenne des 4
+        taux -- \textbf{faux} si les fichiers n'ont pas le meme nombre de
+        lignes (moyenne non ponderee). Toujours concatener d'abord.
+\end{itemize}
+\end{explik}
+
+\begin{pat}
+\emph{\og Data analysis, plusieurs insights, CSV insight\_type/value \fg}
+$\to$ calculer chaque insight separement sur les donnees deja
+nettoyees/combinees, assembler en DataFrame a la fin,
+\texttt{to\_csv(index=False)}.
+\end{pat}
+
+\begin{trap}
+\begin{itemize}[nosep]
+  \item Oublier de combiner les 4 fichiers \texttt{tickets\_i.csv} avant
+        de calculer le taux de succes.
+  \item Confondre pourcentage (\texttt{* 100}) et proportion brute --
+        relisez toujours l'\'enonc\'e pour savoir laquelle est attendue.
+  \item Tol\'erance de l'\'evaluateur : 2 d\'ecimales -- inutile
+        d'arrondir vous-meme dans le fichier, laissez la valeur compl\`ete.
+\end{itemize}
+\end{trap}
+
+\section{3. Question 2 -- Data collecting}
+
+\exhead{Ce qu'on vous demande vraiment}
+Ce n'est PAS un exercice de nettoyage : c'est un exercice de
+\textbf{jointure + agr\'egation + d\'erivation de colonnes}. Vous recevez
+agents.csv, headsets.csv et 4 fichiers
+d'tickets, et vous devez reconstruire une seule table
+avec un sch\'ema de sortie pr\'ecis.
+
+\begin{explik}
+La m\'ethode g\'en\'erale, valable pour toute question de ce style :
+\begin{enumerate}[nosep]
+  \item \textbf{Repartez du sch\'ema de sortie demand\'e}, colonne par
+        colonne, et identifiez sa source : vient-elle directement d'une
+        table, d'une jointure, d'un calcul simple, ou d'une agr\'egation
+        sur une table d'\'ev\'enements ?
+  \item \textbf{Sommer plusieurs colonnes bool\'eennes en une ligne} ->
+        \texttt{df[bool\_cols].sum(axis=1)} donne le nombre de
+        \texttt{True} par ligne ; agr\'egez ensuite par agent avec
+        \texttt{groupby().sum()}.
+  \item \textbf{"Nombre de jours depuis une date"} -> toujours
+        \texttt{pd.to\_datetime} puis soustraction d'une date de r\'ef\'erence
+        fournie par l'\'enonc\'e (ici 2023-04-15, jamais
+        \texttt{pd.Timestamp.now()}), puis \texttt{.dt.days}.
+  \item \textbf{Une formule explicite donn\'ee dans l'\'enonc\'e}
+        (\texttt{experience = 2023 - started\_year}) doit \^etre suivie
+        \`a la lettre, m\^eme si une autre m\'ethode semble \'equivalente.
+  \item \textbf{fillna(0) apr\`es un merge sur une agr\'egation} -- un
+        agent sans aucun \'ev\'enement n'a pas de ligne dans la
+        table d'\'ev\'enements, donc le merge produit un \texttt{NaN} ; 0
+        \'ev\'enement = 0 upvote, logiquement.
+\end{enumerate}
+\end{explik}
+
+\begin{lstlisting}
+upvote_cols = ['clarity_upvote_given', 'politeness_upvote_given', 'resolution_speed_upvote_given', 'follow_up_upvote_given']
+ticket["n_upvotes"] = ticket[upvote_cols].sum(axis=1)
+upvotes_per_agent = ticket.groupby("agent\_id")["n_upvotes"].sum()
+
+headsets["last_inspection_date"] = pd.to_datetime(headsets["last_inspection_date"])
+headsets["days_since_inspection"] = (TODAY - headsets["last_inspection_date"]).dt.days
+\end{lstlisting}
+
+\begin{pat}
+\emph{\og table de sortie avec colonnes venant de plusieurs fichiers \fg}
+$\to$ partir du sch\'ema cible, mapper chaque colonne \`a sa source
+(directe / jointure / d\'eriv\'ee / agr\'eg\'ee), assembler avec des
+\texttt{merge} successifs.
+\end{pat}
+
+\begin{trap}
+\begin{itemize}[nosep]
+  \item Les tests sont \textbf{order-agnostic} (ordre des lignes/colonnes
+        indiff\'erent) -- ne perdez pas de temps \`a trier, l'\'enonc\'e le
+        dit explicitement.
+  \item Oublier \texttt{fillna(0)} sur \texttt{number\_of\_upvotes} apr\`es
+        le merge -- les agents sans \'ev\'enement se retrouvent avec
+        un \texttt{NaN} au lieu de 0.
+  \item Recalculer \texttt{experience} autrement que par la formule
+        exacte donn\'ee (\texttt{2023 - started\_year}).
+\end{itemize}
+\end{trap}
+
+\section{4. Question 3 -- Data processing}
+
+\exhead{La r\`egle qui domine tout : pas de fuite de donn\'ees}
+Toute statistique apprise sur les donn\'ees (moyenne de remplissage,
+encodeur, scaler) doit \^etre calcul\'ee \textbf{uniquement sur train},
+puis appliqu\'ee telle quelle \`a test. Ne jamais recalculer quoi que ce
+soit sur test.
+
+\begin{explik}
+Quatre \'etapes, quatre pi\`eges pr\'ecis -- traitez-les comme des blocs
+ind\'ependants :
+\begin{itemize}[nosep]
+  \item \textbf{a. fillna(age, moyenne)} -- la moyenne vient du
+        \textbf{train uniquement}, appliqu\'ee ensuite comme constante \`a
+        test.
+  \item \textbf{b. encodage ordinal} -- \texttt{sklearn.OrdinalEncoder}
+        garantit nativement des codes cons\'ecutifs \`a partir de 0.
+        \texttt{fit} sur train seul, \texttt{transform} (jamais
+        \texttt{fit\_transform}) sur test -- sinon les deux fichiers
+        peuvent avoir des mappings incoh\'erents entre eux.
+  \item \textbf{c. Standard Scaling} -- m\^eme r\`egle : \texttt{fit} sur
+        train, \texttt{transform} sur test.
+  \item \textbf{d. binaire "A class"/"B class"} -- un simple
+        \texttt{.map(\{"A class": 0, "B class": 1\})}, aucune fuite
+        possible ici.
+\end{itemize}
+\end{explik}
+
+\begin{trap}
+\textbf{Le pi\`ege des \og exactement 5 d\'ecimales \fg.} Arrondir la
+valeur num\'erique (\texttt{.round(5)}) ne suffit pas : \texttt{to\_csv}
+n'ajoute pas de z\'eros de padding (\texttt{1.2} reste \texttt{"1.2"}, pas
+\texttt{"1.20000"}). Formatez explicitement la colonne en cha\^ine avec
+\texttt{s.map(lambda x: f"\{x:.5f\}")} avant \texttt{to\_csv} -- et
+uniquement sur la colonne demand\'ee : un \texttt{float\_format="\%.5f"}
+global sur \texttt{to\_csv} reformaterait \textbf{toutes} les colonnes
+flottantes du DataFrame, y compris \texttt{rating}, ce qui n'est pas
+demand\'e.
+\end{trap}
+
+\begin{pat}
+\emph{\og Data processing avec contrainte no leakage \fg} $\to$
+syst\'ematiquement \texttt{fit} sur train uniquement, \texttt{transform}
+sur test ; toute statistique de remplissage vient du train.
+\end{pat}
+
+\section{5. Question 4 -- Classification}
+
+\exhead{L'objectif est asym\'etrique, pas un bon F1}
+L'\'enonc\'e dit : \emph{maximiser le recall, en gardant la precision \`a
+un niveau relativement \'elev\'e}, classe positive = \texttt{B class}
+(\texttt{1}). Ce n'est pas \og un bon score global \fg -- c'est une
+contrainte pr\'ecise \`a traduire en code.
+
+\begin{explik}
+Deux leviers \`a utiliser ensemble :
+\begin{enumerate}[nosep]
+  \item \textbf{\texttt{class\_weight="balanced"}} au moment du
+        \texttt{fit} -- le mod\`ele p\'enalise plus fortement les faux
+        n\'egatifs sur la classe positive, donc apprend mieux \`a la
+        d\'etecter.
+  \item \textbf{Ajuster le seuil de d\'ecision} plut\^ot que le seuil par
+        d\'efaut de \texttt{predict()} (0.5 implicite). Balayez les seuils
+        sur \texttt{predict\_proba}, gardez celui qui maximise le recall
+        \textbf{sous une contrainte minimale de precision} -- \c{c}a
+        traduit directement la consigne de l'\'enonc\'e en code.
+\end{enumerate}
+\'Evaluez toujours sur \texttt{val.csv} (labels connus), jamais sur
+\texttt{test.csv} (labels absents dans le vrai test -- litt\'eralement
+impossible d'y calculer precision/recall en local).
+\end{explik}
+
+\begin{lstlisting}
+model = LogisticRegression(max_iter=1000, class_weight="balanced")
+model.fit(X_tr, y_tr)
+
+proba_va = model.predict_proba(X_va)[:, 1]
+for thr in np.arange(0.1, 0.9, 0.02):
+    pred = (proba_va >= thr).astype(int)
+    # garder le seuil qui maximise recall sous precision >= 0.6
+\end{lstlisting}
+
+\begin{trap}
+\begin{itemize}[nosep]
+  \item Le bouton Run ne score que les 10 premi\`eres lignes du fichier
+        test -- ce n'est pas repr\'esentatif, ne pas paniquer si le score
+        Run est bas ou instable ; seul Submit compte pour le score final.
+  \item Limite d'ex\'ecution : 8 secondes -- un mod\`ele trop lourd
+        (grid search complet, for\^et de 1000 arbres) peut timeout.
+  \item Utiliser \texttt{predict()} par d\'efaut (seuil 0.5 implicite) au
+        lieu de chercher le seuil qui correspond vraiment \`a la consigne.
+\end{itemize}
+\end{trap}
+
+\begin{pat}
+\emph{\og maximiser recall en gardant precision \'elev\'ee, classe
+positive minoritaire \fg} $\to$ \texttt{class\_weight="balanced"} +
+recherche de seuil sur \texttt{predict\_proba} avec contrainte de
+precision minimale, valid\'e sur le validation set.
+\end{pat}
+
+\section{6. Check-list finale}
+\begin{itemize}[nosep]
+  \item[$\square$] Q1 : concat\'ener les 4 fichiers AVANT de calculer un taux global
+  \item[$\square$] Q1 : \texttt{condition.mean() * 100} pour un pourcentage
+  \item[$\square$] Q2 : sch\'ema de sortie decompos\'e colonne par colonne avant de coder
+  \item[$\square$] Q2 : \texttt{fillna(0)} apr\`es un merge sur une agr\'egation
+  \item[$\square$] Q3 : fit sur train uniquement, transform sur test -- jamais l'inverse
+  \item[$\square$] Q3 : format texte \`a 5 d\'ecimales exactes, colonne cibl\'ee seulement
+  \item[$\square$] Q4 : \texttt{class\_weight="balanced"} + recherche de seuil
+  \item[$\square$] Q4 : \'evaluer sur val, jamais sur test (labels absents)
+\end{itemize}
+
+\end{document}
