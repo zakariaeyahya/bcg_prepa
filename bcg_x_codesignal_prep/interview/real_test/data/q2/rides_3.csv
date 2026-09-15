@@ -1,0 +1,131 @@
+ride_id,driver_id,passenger_id,date,status,car_clearness_upvote_given,politeness_upvote_given,communication_upvote_given,punctuality_upvote_given,complaint_given
+261,136,5297,2022-06-15,Success,False,True,True,True,False
+262,138,5113,2022-02-15,Success,False,True,True,True,False
+263,44,5152,2022-07-13,Success,True,False,True,True,False
+264,28,5071,2022-03-13,Rejected by the driver,True,False,False,True,False
+265,1,5283,2022-08-30,Cancelled by the passenger,True,True,True,True,False
+266,125,5337,2022-10-01,Rejected by the driver,True,True,True,False,True
+267,20,5421,2022-06-20,Success,False,True,True,True,False
+268,147,5154,2022-01-14,Success,True,True,True,False,False
+269,130,5075,2022-06-28,Success,False,True,False,True,False
+270,25,5038,2022-01-13,Success,False,True,True,False,False
+271,68,5229,2022-09-23,Success,True,False,True,False,False
+272,96,5382,2022-03-28,Success,True,False,False,True,False
+273,3,5178,2022-10-26,Success,False,False,True,True,False
+274,72,5393,2022-05-19,Cancelled by the passenger,True,True,True,False,False
+275,113,5294,2022-08-22,Success,True,True,True,True,False
+276,78,5308,2022-08-17,Cancelled by the passenger,True,True,False,False,False
+277,5,5278,2022-01-15,Success,True,False,False,True,False
+278,109,5428,2022-05-25,Success,True,False,False,True,False
+279,139,5024,2022-02-26,Success,True,True,True,False,False
+280,5,5063,2022-08-06,Success,True,False,True,False,False
+281,24,5373,2022-09-16,Success,True,False,False,True,False
+282,116,5438,2022-09-02,Cancelled by the passenger,False,False,True,False,False
+283,76,5151,2022-01-26,Cancelled by the passenger,True,False,True,False,True
+284,132,5416,2022-05-27,Rejected by the driver,False,False,False,False,False
+285,82,5384,2022-01-22,Success,False,False,True,True,False
+286,76,5017,2022-03-02,Cancelled by the passenger,False,True,True,True,False
+287,69,5311,2022-04-12,Success,False,False,True,False,False
+288,139,5358,2022-02-01,Success,False,True,False,True,False
+289,83,5143,2022-06-24,Success,True,True,True,False,False
+290,21,5460,2022-09-27,Rejected by the driver,False,False,True,True,False
+291,55,5136,2022-02-15,Success,True,False,True,True,False
+292,68,5085,2022-02-22,Cancelled by the passenger,True,True,True,True,False
+293,86,5497,2022-07-27,Cancelled by the passenger,True,True,False,False,False
+294,138,5340,2022-02-07,Success,False,False,True,False,False
+295,44,5343,2022-09-04,Success,True,False,True,False,False
+296,138,5195,2022-09-20,Success,True,True,True,True,False
+297,102,5071,2022-01-12,Cancelled by the passenger,True,False,False,True,False
+298,17,5169,2022-08-10,Success,True,True,True,False,False
+299,1,5235,2022-08-07,Success,False,True,False,True,False
+300,37,5118,2022-06-07,Success,False,True,True,True,False
+301,127,5148,2022-09-01,Success,True,True,False,True,False
+302,13,5217,2022-09-28,Success,True,True,False,False,False
+303,63,5223,2022-02-25,Success,False,True,True,False,False
+304,82,5029,2022-07-01,Success,True,False,True,True,False
+305,58,5372,2022-08-15,Rejected by the driver,True,False,True,True,False
+306,103,5182,2022-03-27,Rejected by the driver,True,True,False,False,False
+307,139,5098,2022-03-16,Success,True,False,False,True,False
+308,80,5202,2022-01-20,Success,True,True,False,False,False
+309,102,5136,2022-06-11,Success,True,False,False,True,True
+310,99,5008,2022-05-14,Rejected by the driver,True,True,True,True,False
+311,83,5154,2022-07-15,Success,True,False,False,True,False
+312,150,5175,2022-02-11,Success,True,True,True,False,False
+313,35,5090,2022-10-27,Success,False,False,True,True,True
+314,29,5158,2022-05-19,Success,False,True,False,True,False
+315,27,5258,2022-03-03,Success,False,True,True,True,False
+316,103,5499,2022-06-12,Success,False,True,False,False,False
+317,45,5201,2022-09-09,Success,False,False,False,True,False
+318,27,5303,2022-08-11,Success,False,True,True,True,False
+319,3,5439,2022-05-12,Success,True,True,True,True,False
+320,64,5214,2022-02-10,Success,True,False,False,True,False
+321,20,5474,2022-06-05,Success,True,True,False,False,False
+322,70,5468,2022-08-21,Success,True,True,True,True,False
+323,53,5216,2022-06-08,Success,True,True,False,True,False
+324,37,5160,2022-04-27,Success,True,False,False,True,False
+325,20,5422,2022-09-07,Success,True,False,True,True,False
+326,17,5261,2022-03-22,Success,True,True,False,False,False
+327,107,5249,2022-07-09,Cancelled by the passenger,False,False,False,False,False
+328,44,5124,2022-07-24,Cancelled by the passenger,True,True,True,False,False
+329,10,5407,2022-04-22,Success,False,True,True,True,False
+330,113,5286,2022-09-21,Success,True,True,True,False,False
+331,80,5378,2022-09-17,Success,True,False,True,True,False
+332,95,5491,2022-07-09,Cancelled by the passenger,False,True,False,False,False
+333,84,5400,2022-01-15,Success,False,False,True,False,False
+334,90,5438,2022-10-22,Cancelled by the passenger,True,False,True,True,False
+335,34,5079,2022-07-30,Success,True,True,True,True,False
+336,24,5290,2022-01-10,Success,False,True,True,False,False
+337,62,5205,2022-01-18,Cancelled by the passenger,False,False,False,True,False
+338,70,5399,2022-02-18,Success,True,False,True,False,False
+339,69,5003,2022-04-13,Success,True,False,True,True,False
+340,129,5498,2022-04-16,Success,True,False,False,True,True
+341,99,5219,2022-07-16,Success,False,True,True,False,False
+342,117,5483,2022-08-06,Cancelled by the passenger,True,True,True,False,False
+343,90,5459,2022-04-22,Success,False,False,False,True,False
+344,126,5365,2022-06-27,Rejected by the driver,True,False,True,False,False
+345,36,5099,2022-04-21,Cancelled by the passenger,False,False,True,True,False
+346,135,5277,2022-04-30,Cancelled by the passenger,False,True,False,True,False
+347,122,5112,2022-09-25,Success,True,False,True,False,False
+348,64,5489,2022-06-30,Rejected by the driver,True,True,True,True,False
+349,43,5256,2022-10-22,Success,True,True,True,True,False
+350,94,5471,2022-06-01,Success,True,True,True,True,False
+351,127,5087,2022-05-05,Success,True,False,True,False,False
+352,88,5374,2022-10-09,Success,True,False,True,True,False
+353,4,5277,2022-01-05,Success,False,False,False,True,True
+354,104,5438,2022-07-04,Success,True,True,True,False,False
+355,53,5085,2022-05-07,Success,False,True,False,False,False
+356,92,5474,2022-01-17,Success,False,True,True,False,False
+357,88,5020,2022-07-13,Cancelled by the passenger,False,False,True,True,False
+358,66,5165,2022-05-24,Success,True,True,True,True,False
+359,107,5310,2022-01-12,Success,False,True,False,False,False
+360,85,5291,2022-09-26,Success,False,True,True,True,True
+361,54,5001,2022-05-07,Success,True,True,False,False,False
+362,49,5433,2022-05-05,Success,False,True,False,True,False
+363,97,5358,2022-09-09,Success,True,True,True,True,True
+364,94,5008,2022-06-01,Success,False,True,True,False,True
+365,19,5433,2022-04-09,Success,False,False,False,False,False
+366,4,5082,2022-07-22,Success,False,True,True,False,False
+367,149,5128,2022-07-28,Cancelled by the passenger,True,True,True,True,False
+368,26,5077,2022-01-22,Rejected by the driver,True,True,False,False,False
+369,87,5224,2022-03-14,Rejected by the driver,True,True,True,False,False
+370,57,5217,2022-01-31,Success,True,True,True,True,False
+371,147,5400,2022-01-06,Success,True,False,False,True,False
+372,138,5352,2022-05-12,Success,True,True,True,True,False
+373,130,5326,2022-01-14,Cancelled by the passenger,True,False,True,True,False
+374,77,5019,2022-08-30,Success,False,False,True,True,False
+375,149,5325,2022-04-10,Cancelled by the passenger,False,True,True,True,False
+376,88,5064,2022-10-03,Success,False,False,False,False,False
+377,148,5378,2022-10-03,Success,True,False,False,True,False
+378,87,5089,2022-04-24,Cancelled by the passenger,True,False,False,True,False
+379,111,5166,2022-07-10,Success,False,False,False,False,False
+380,68,5158,2022-03-20,Rejected by the driver,True,False,False,True,True
+381,54,5316,2022-01-12,Success,True,True,True,True,False
+382,150,5142,2022-07-11,Success,True,True,False,True,False
+383,75,5043,2022-08-27,Success,True,True,True,False,False
+384,96,5384,2022-05-12,Success,False,False,True,True,False
+385,43,5387,2022-04-10,Success,False,True,True,True,False
+386,105,5354,2022-06-24,Success,True,False,False,False,False
+387,72,5456,2022-05-05,Success,False,False,False,False,False
+388,113,5325,2022-04-20,Success,False,True,True,False,False
+389,65,5475,2022-03-13,Success,False,True,True,False,True
+390,65,5295,2022-06-29,Success,False,True,False,True,False
