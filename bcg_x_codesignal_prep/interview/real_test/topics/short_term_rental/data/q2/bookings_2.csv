@@ -1,0 +1,131 @@
+booking_id,host_id,guest_id,date,status,cleanliness_upvote_given,communication_upvote_given,check_in_upvote_given,accuracy_upvote_given,complaint_given
+131,19,5006,2022-05-18,Success,True,True,False,True,False
+132,101,5468,2022-02-26,Success,False,False,False,True,True
+133,105,5199,2022-05-29,Success,False,False,False,False,False
+134,4,5424,2022-10-16,Success,True,False,False,True,False
+135,134,5189,2022-08-04,Success,False,True,True,True,False
+136,32,5450,2022-07-14,Success,True,True,False,True,False
+137,137,5139,2022-06-12,Success,False,True,True,False,False
+138,144,5134,2022-10-11,Success,True,False,False,False,False
+139,106,5214,2022-01-16,Success,False,True,True,False,False
+140,6,5450,2022-02-17,Success,True,False,True,False,False
+141,54,5003,2022-07-03,Success,False,True,True,True,False
+142,25,5012,2022-05-29,Success,False,False,False,False,False
+143,67,5284,2022-05-27,Cancelled by the guest,True,False,True,False,False
+144,75,5318,2022-09-06,Success,True,True,True,True,False
+145,9,5160,2022-03-24,Success,True,True,False,True,False
+146,60,5426,2022-08-12,Success,False,True,False,True,False
+147,109,5062,2022-09-21,Success,False,False,True,True,False
+148,4,5283,2022-02-02,Success,True,True,False,False,False
+149,145,5134,2022-06-09,Success,True,False,True,False,False
+150,133,5215,2022-02-27,Rejected by the host,True,False,False,True,False
+151,43,5036,2022-02-09,Success,False,True,True,False,False
+152,106,5401,2022-04-09,Success,True,False,False,True,False
+153,73,5197,2022-05-30,Success,True,True,True,True,False
+154,66,5486,2022-03-26,Cancelled by the guest,True,True,False,True,False
+155,145,5015,2022-01-09,Success,False,False,False,True,False
+156,25,5421,2022-07-26,Success,False,False,False,False,False
+157,112,5340,2022-07-08,Cancelled by the guest,False,True,False,False,False
+158,95,5055,2022-01-16,Rejected by the host,True,True,True,True,False
+159,9,5338,2022-05-27,Success,True,False,False,False,False
+160,146,5016,2022-01-20,Success,True,True,False,False,False
+161,68,5335,2022-09-19,Success,True,False,False,False,False
+162,105,5397,2022-07-30,Success,True,True,True,True,False
+163,86,5180,2022-01-20,Success,True,True,False,True,False
+164,148,5241,2022-02-15,Rejected by the host,True,False,True,False,False
+165,40,5012,2022-09-18,Success,True,False,True,True,False
+166,95,5174,2022-10-19,Success,True,False,False,True,False
+167,92,5119,2022-09-26,Success,True,False,False,True,False
+168,113,5476,2022-06-15,Success,False,True,True,False,False
+169,139,5099,2022-03-20,Success,True,True,True,False,False
+170,43,5420,2022-05-21,Success,True,False,True,True,False
+171,97,5173,2022-05-05,Success,True,False,False,False,False
+172,127,5031,2022-01-30,Success,False,False,True,True,False
+173,47,5224,2022-01-28,Cancelled by the guest,True,False,False,False,False
+174,116,5242,2022-01-14,Success,True,True,False,True,False
+175,60,5428,2022-10-16,Success,True,True,True,True,False
+176,29,5157,2022-09-29,Success,True,True,True,False,False
+177,96,5163,2022-10-26,Success,False,True,True,False,False
+178,18,5387,2022-07-18,Success,True,True,False,True,False
+179,14,5118,2022-01-22,Success,True,False,True,True,False
+180,139,5276,2022-02-14,Success,False,False,True,True,False
+181,27,5243,2022-03-26,Success,True,False,False,True,False
+182,91,5097,2022-06-16,Rejected by the host,False,True,False,False,False
+183,1,5002,2022-01-10,Success,True,False,True,False,False
+184,39,5435,2022-02-02,Success,True,False,True,True,False
+185,11,5296,2022-03-21,Success,False,True,True,False,False
+186,84,5105,2022-05-31,Success,False,True,True,False,False
+187,138,5233,2022-02-08,Success,True,True,False,True,False
+188,8,5149,2022-08-24,Success,True,True,False,True,False
+189,106,5037,2022-09-08,Success,True,False,False,True,False
+190,58,5417,2022-07-18,Success,False,True,False,False,False
+191,144,5004,2022-03-23,Success,False,True,True,False,True
+192,14,5305,2022-02-17,Success,False,False,False,True,False
+193,39,5195,2022-09-21,Rejected by the host,False,False,False,False,False
+194,4,5243,2022-07-03,Success,True,True,True,True,False
+195,26,5477,2022-04-14,Cancelled by the guest,True,False,False,False,False
+196,65,5425,2022-09-28,Rejected by the host,False,True,False,False,False
+197,60,5210,2022-09-15,Success,False,True,True,False,False
+198,33,5421,2022-08-16,Success,False,True,True,False,False
+199,54,5422,2022-04-23,Success,False,False,True,True,False
+200,121,5380,2022-02-05,Rejected by the host,False,True,True,False,False
+201,65,5179,2022-01-18,Success,False,False,True,False,False
+202,1,5455,2022-01-12,Success,True,False,False,False,False
+203,31,5018,2022-03-24,Success,False,True,True,True,False
+204,127,5055,2022-01-09,Success,True,True,False,True,False
+205,63,5068,2022-06-15,Success,True,False,False,False,False
+206,96,5072,2022-07-15,Rejected by the host,True,False,True,True,False
+207,113,5068,2022-10-07,Success,True,False,False,True,False
+208,62,5078,2022-01-29,Cancelled by the guest,False,True,True,False,False
+209,22,5347,2022-05-06,Success,True,True,True,False,False
+210,122,5370,2022-10-03,Success,True,False,False,False,False
+211,30,5160,2022-02-11,Success,True,True,False,False,False
+212,138,5228,2022-07-20,Rejected by the host,True,True,True,True,False
+213,113,5177,2022-02-15,Cancelled by the guest,True,True,True,True,False
+214,121,5385,2022-08-17,Success,True,False,True,False,False
+215,21,5279,2022-07-27,Success,True,False,False,True,False
+216,34,5341,2022-09-04,Success,False,False,True,False,False
+217,4,5142,2022-05-31,Rejected by the host,True,True,False,False,False
+218,1,5088,2022-03-29,Success,True,False,True,False,False
+219,85,5453,2022-09-22,Success,True,True,False,False,False
+220,118,5154,2022-04-10,Success,False,True,True,False,False
+221,127,5409,2022-09-01,Cancelled by the guest,False,False,True,True,False
+222,97,5412,2022-08-17,Success,True,True,False,True,False
+223,129,5137,2022-05-03,Success,False,True,False,True,True
+224,13,5268,2022-10-21,Success,False,False,True,False,True
+225,77,5009,2022-06-24,Success,True,False,False,False,False
+226,23,5225,2022-09-09,Success,False,False,True,True,False
+227,125,5249,2022-10-13,Success,True,False,False,True,True
+228,115,5454,2022-02-26,Success,True,True,False,True,False
+229,41,5206,2022-06-23,Success,True,True,True,True,False
+230,36,5339,2022-05-07,Success,True,True,True,True,False
+231,17,5404,2022-10-08,Success,True,True,False,False,False
+232,65,5042,2022-01-11,Success,False,False,False,False,False
+233,144,5374,2022-06-13,Success,True,True,True,True,True
+234,108,5280,2022-08-10,Success,True,False,False,True,False
+235,70,5307,2022-09-23,Success,True,False,True,False,False
+236,15,5145,2022-10-05,Success,False,False,True,False,False
+237,49,5453,2022-09-17,Success,False,True,True,False,False
+238,74,5137,2022-09-12,Success,False,True,False,False,False
+239,15,5014,2022-07-23,Rejected by the host,True,True,False,False,False
+240,73,5308,2022-10-25,Success,True,False,True,True,False
+241,124,5373,2022-07-11,Cancelled by the guest,False,True,True,False,False
+242,127,5170,2022-06-10,Success,False,False,False,True,False
+243,23,5090,2022-03-04,Success,True,False,True,False,False
+244,146,5411,2022-05-31,Success,False,True,False,True,False
+245,133,5373,2022-06-07,Success,False,True,False,True,False
+246,35,5127,2022-04-20,Success,True,False,True,False,False
+247,102,5241,2022-08-09,Success,True,True,True,False,False
+248,29,5087,2022-05-11,Cancelled by the guest,False,False,False,True,False
+249,74,5058,2022-03-09,Cancelled by the guest,True,True,True,False,False
+250,101,5413,2022-07-01,Success,True,True,False,False,False
+251,66,5209,2022-08-06,Success,False,True,True,True,False
+252,136,5010,2022-09-06,Cancelled by the guest,False,True,True,True,False
+253,47,5067,2022-08-12,Success,True,True,False,True,False
+254,35,5359,2022-01-19,Success,True,False,False,True,False
+255,9,5164,2022-03-06,Rejected by the host,True,True,True,True,False
+256,97,5420,2022-08-18,Success,False,True,True,False,False
+257,114,5255,2022-09-09,Success,True,True,False,True,False
+258,39,5177,2022-10-18,Rejected by the host,True,True,False,True,True
+259,54,5003,2022-07-24,Success,True,False,False,True,False
+260,16,5179,2022-05-27,Success,False,False,True,True,False

@@ -1,0 +1,131 @@
+delivery_id,courier_id,customer_id,date,status,food_temperature_upvote_given,politeness_upvote_given,packaging_upvote_given,punctuality_upvote_given,complaint_given
+131,122,5135,2022-06-30,Success,True,True,False,False,False
+132,54,5149,2022-09-11,Success,False,True,True,False,False
+133,83,5077,2022-05-31,Success,False,False,True,False,False
+134,6,5127,2022-07-13,Success,False,True,True,False,False
+135,98,5102,2022-02-23,Success,False,True,True,False,False
+136,110,5362,2022-06-13,Success,False,True,True,False,False
+137,1,5361,2022-03-21,Success,False,False,False,True,False
+138,40,5208,2022-03-04,Success,True,True,False,True,False
+139,22,5240,2022-05-31,Success,True,False,True,False,False
+140,48,5350,2022-08-27,Success,True,False,True,True,True
+141,19,5400,2022-06-16,Success,True,True,True,True,False
+142,34,5388,2022-01-05,Success,True,False,False,True,False
+143,66,5358,2022-02-09,Success,True,True,False,False,False
+144,82,5456,2022-07-02,Success,False,True,False,True,False
+145,149,5488,2022-02-12,Success,True,False,False,True,False
+146,10,5365,2022-09-30,Success,True,False,False,False,False
+147,78,5343,2022-09-21,Success,True,True,True,True,False
+148,85,5237,2022-10-17,Rejected by the courier,True,False,False,True,False
+149,142,5223,2022-01-01,Success,True,True,True,True,True
+150,66,5475,2022-06-27,Success,False,False,True,False,False
+151,65,5190,2022-03-10,Success,True,False,False,True,True
+152,81,5088,2022-04-14,Success,True,True,True,True,False
+153,10,5300,2022-09-05,Success,True,False,True,False,False
+154,9,5182,2022-08-31,Success,True,True,False,False,False
+155,94,5335,2022-08-05,Rejected by the courier,True,False,True,True,False
+156,110,5405,2022-03-05,Success,True,True,True,True,False
+157,82,5244,2022-04-04,Cancelled by the customer,False,False,True,False,False
+158,48,5314,2022-08-29,Success,False,True,False,True,False
+159,132,5088,2022-09-09,Success,True,True,True,False,False
+160,101,5076,2022-06-22,Success,True,True,False,True,False
+161,60,5343,2022-10-04,Rejected by the courier,True,False,False,False,False
+162,149,5054,2022-07-03,Success,True,True,False,False,False
+163,118,5133,2022-05-03,Success,True,True,True,True,False
+164,14,5206,2022-04-29,Cancelled by the customer,False,False,False,True,False
+165,147,5335,2022-01-06,Success,False,True,False,False,False
+166,102,5247,2022-01-26,Success,True,False,True,True,True
+167,69,5430,2022-07-25,Success,True,True,True,False,False
+168,137,5383,2022-07-04,Success,True,False,False,False,False
+169,8,5286,2022-02-13,Cancelled by the customer,True,True,False,True,False
+170,16,5400,2022-02-03,Success,False,True,False,True,False
+171,145,5473,2022-01-14,Success,True,False,False,True,False
+172,1,5095,2022-05-13,Success,True,False,False,True,False
+173,58,5447,2022-05-24,Success,False,False,False,True,False
+174,134,5342,2022-02-02,Success,True,True,True,False,True
+175,147,5210,2022-01-19,Success,False,True,False,True,True
+176,87,5101,2022-10-18,Success,True,False,False,True,False
+177,69,5312,2022-04-08,Success,True,True,False,False,True
+178,140,5268,2022-05-21,Success,True,True,False,True,False
+179,6,5327,2022-04-13,Success,False,True,False,False,False
+180,71,5084,2022-01-03,Cancelled by the customer,True,True,False,True,False
+181,7,5367,2022-03-31,Cancelled by the customer,False,True,True,False,False
+182,114,5169,2022-08-18,Success,False,True,True,False,False
+183,127,5252,2022-06-07,Success,False,True,True,False,False
+184,109,5379,2022-08-24,Rejected by the courier,True,False,True,False,False
+185,144,5029,2022-02-02,Success,True,False,False,False,False
+186,8,5213,2022-01-23,Success,True,True,False,False,False
+187,53,5256,2022-09-28,Success,True,True,True,False,False
+188,63,5433,2022-01-31,Success,False,True,True,True,False
+189,69,5085,2022-08-01,Success,True,False,False,False,False
+190,148,5188,2022-07-28,Rejected by the courier,True,True,False,True,False
+191,66,5097,2022-10-13,Success,False,True,True,False,False
+192,79,5011,2022-06-04,Success,False,False,True,False,False
+193,87,5316,2022-06-05,Success,True,True,False,False,False
+194,105,5178,2022-09-21,Success,True,True,True,True,False
+195,58,5078,2022-03-22,Success,True,False,True,True,True
+196,23,5218,2022-09-16,Rejected by the courier,False,True,False,False,False
+197,92,5162,2022-01-17,Success,True,False,True,False,False
+198,58,5352,2022-05-06,Success,True,False,True,True,False
+199,101,5207,2022-05-18,Success,False,False,False,True,False
+200,18,5254,2022-10-11,Success,True,True,True,True,False
+201,14,5236,2022-09-22,Success,True,False,False,False,True
+202,2,5272,2022-04-24,Success,True,False,True,True,False
+203,46,5311,2022-02-07,Cancelled by the customer,True,True,True,False,False
+204,70,5201,2022-09-24,Success,True,False,True,False,False
+205,133,5341,2022-08-24,Cancelled by the customer,False,True,False,False,False
+206,115,5285,2022-09-01,Success,True,True,False,True,True
+207,126,5320,2022-07-20,Cancelled by the customer,False,True,False,True,False
+208,51,5000,2022-03-02,Success,False,False,False,False,False
+209,34,5051,2022-10-24,Success,False,True,True,False,False
+210,137,5492,2022-05-24,Success,False,True,False,True,False
+211,54,5300,2022-05-25,Success,True,False,False,False,False
+212,33,5277,2022-07-03,Success,True,True,False,True,False
+213,134,5159,2022-06-26,Cancelled by the customer,True,True,True,False,False
+214,120,5083,2022-05-14,Success,True,False,True,False,False
+215,142,5319,2022-06-13,Success,True,False,False,True,False
+216,105,5373,2022-03-07,Cancelled by the customer,False,True,True,True,False
+217,113,5371,2022-06-29,Rejected by the courier,True,True,False,True,True
+218,140,5439,2022-10-10,Success,True,True,True,False,False
+219,128,5371,2022-06-16,Success,False,True,True,False,False
+220,77,5359,2022-09-01,Success,False,False,True,True,False
+221,77,5377,2022-06-24,Success,True,True,True,True,False
+222,92,5136,2022-04-26,Success,False,True,False,False,False
+223,56,5470,2022-08-05,Cancelled by the customer,False,True,True,True,False
+224,56,5387,2022-10-11,Success,True,False,True,False,False
+225,22,5039,2022-01-25,Rejected by the courier,False,False,False,True,False
+226,76,5305,2022-01-20,Success,True,False,True,True,False
+227,5,5327,2022-04-29,Success,False,True,True,False,False
+228,30,5469,2022-10-12,Rejected by the courier,True,False,True,False,False
+229,54,5389,2022-01-25,Cancelled by the customer,False,True,False,False,False
+230,138,5356,2022-05-09,Success,True,False,False,False,False
+231,78,5203,2022-06-01,Success,False,True,True,False,False
+232,74,5358,2022-04-22,Success,True,True,False,True,False
+233,17,5254,2022-06-29,Success,False,False,True,False,False
+234,60,5408,2022-05-06,Success,True,True,False,True,False
+235,48,5215,2022-01-09,Success,False,False,True,False,False
+236,11,5045,2022-02-18,Success,True,True,False,False,False
+237,44,5277,2022-08-14,Success,False,True,False,False,False
+238,71,5101,2022-08-20,Cancelled by the customer,False,True,True,True,False
+239,88,5135,2022-07-07,Success,True,True,True,False,False
+240,32,5400,2022-05-02,Success,True,False,False,True,True
+241,54,5286,2022-08-29,Cancelled by the customer,False,False,True,False,False
+242,36,5212,2022-01-30,Success,True,True,True,False,False
+243,82,5124,2022-09-18,Success,False,True,False,True,False
+244,129,5347,2022-07-20,Cancelled by the customer,True,False,True,False,False
+245,111,5215,2022-06-03,Success,False,True,False,False,False
+246,81,5499,2022-07-27,Success,False,False,False,True,False
+247,26,5181,2022-02-08,Success,True,True,False,True,False
+248,85,5417,2022-04-11,Success,False,True,False,False,False
+249,7,5421,2022-09-22,Success,True,True,True,False,True
+250,101,5254,2022-10-11,Success,False,False,False,True,False
+251,41,5490,2022-02-20,Success,False,False,False,False,False
+252,106,5290,2022-06-08,Success,False,False,True,False,False
+253,148,5494,2022-09-09,Success,True,True,False,True,False
+254,13,5481,2022-07-26,Success,False,False,True,True,False
+255,113,5296,2022-03-01,Success,False,True,False,False,False
+256,109,5194,2022-08-07,Success,True,True,False,True,False
+257,136,5144,2022-07-07,Cancelled by the customer,False,True,False,False,False
+258,85,5008,2022-05-26,Success,True,True,False,False,False
+259,76,5149,2022-05-09,Success,False,False,True,False,False
+260,96,5324,2022-10-20,Success,True,False,False,True,False

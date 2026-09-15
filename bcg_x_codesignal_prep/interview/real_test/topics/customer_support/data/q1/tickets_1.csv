@@ -1,0 +1,131 @@
+ticket_id,agent_id,customer_id,date,status
+1,37,5496,2022-01-18,Rejected by the agent
+2,70,5000,2022-08-13,Rejected by the agent
+3,149,5098,2022-05-21,Success
+4,125,5208,2022-02-27,Success
+5,63,5469,2022-10-05,Success
+6,86,5293,2022-09-13,Rejected by the agent
+7,145,5319,2022-08-19,Success
+8,127,5390,2022-07-09,Success
+9,84,5197,2022-02-15,Rejected by the agent
+10,97,5013,2022-08-16,Success
+11,12,5041,2022-07-07,Success
+12,75,5479,2022-02-19,Success
+13,30,5265,2022-09-03,Cancelled by the customer
+14,148,5348,2022-06-20,Rejected by the agent
+15,19,5469,2022-05-17,Success
+16,109,5325,2022-04-20,Success
+17,122,5029,2022-03-28,Cancelled by the customer
+18,38,5415,2022-03-21,Success
+19,26,5044,2022-08-23,Success
+20,101,5250,2022-04-25,Success
+21,134,5153,2022-02-05,Rejected by the agent
+22,83,5011,2022-10-20,Cancelled by the customer
+23,84,5236,2022-07-10,Cancelled by the customer
+24,24,5307,2022-06-24,Success
+25,61,5135,2022-01-29,Success
+26,118,5074,2022-06-10,Rejected by the agent
+27,119,5188,2022-10-23,Success
+28,73,5470,2022-04-22,Success
+29,10,5028,2022-02-03,Success
+30,104,5132,2022-01-31,Rejected by the agent
+31,33,5151,2022-06-11,Success
+32,59,5417,2022-08-26,Success
+33,53,5370,2022-08-16,Success
+34,81,5461,2022-02-25,Success
+35,111,5112,2022-04-25,Success
+36,7,5192,2022-05-14,Success
+37,57,5039,2022-02-04,Success
+38,122,5276,2022-04-02,Cancelled by the customer
+39,101,5023,2022-09-23,Cancelled by the customer
+40,44,5250,2022-05-08,Success
+41,147,5192,2022-01-17,Success
+42,74,5257,2022-01-30,Success
+43,76,5101,2022-02-16,Success
+44,51,5076,2022-10-24,Cancelled by the customer
+45,20,5455,2022-06-11,Success
+46,27,5372,2022-05-29,Cancelled by the customer
+47,33,5228,2022-03-20,Success
+48,9,5282,2022-06-18,Success
+49,43,5204,2022-09-09,Rejected by the agent
+50,50,5401,2022-05-03,Success
+51,108,5115,2022-08-31,Success
+52,145,5056,2022-01-13,Cancelled by the customer
+53,70,5485,2022-10-16,Cancelled by the customer
+54,1,5021,2022-10-19,Success
+55,103,5126,2022-10-05,Success
+56,86,5094,2022-05-13,Rejected by the agent
+57,97,5205,2022-05-15,Rejected by the agent
+58,142,5319,2022-02-08,Success
+59,137,5457,2022-05-05,Success
+60,107,5054,2022-05-17,Success
+61,14,5484,2022-10-15,Cancelled by the customer
+62,149,5477,2022-08-18,Success
+63,110,5119,2022-04-30,Success
+64,68,5266,2022-01-01,Success
+65,137,5007,2022-08-19,Success
+66,129,5427,2022-01-19,Rejected by the agent
+67,107,5105,2022-05-31,Success
+68,106,5417,2022-03-01,Success
+69,10,5186,2022-10-17,Success
+70,139,5242,2022-02-26,Success
+71,63,5458,2022-10-25,Success
+72,27,5331,2022-03-06,Success
+73,118,5448,2022-01-01,Success
+74,111,5095,2022-10-10,Success
+75,54,5408,2022-07-22,Success
+76,144,5479,2022-10-17,Cancelled by the customer
+77,74,5295,2022-06-06,Success
+78,27,5249,2022-01-16,Success
+79,12,5151,2022-06-10,Success
+80,96,5029,2022-09-04,Rejected by the agent
+81,17,5342,2022-10-17,Cancelled by the customer
+82,110,5363,2022-07-13,Success
+83,95,5159,2022-04-25,Rejected by the agent
+84,111,5087,2022-05-07,Cancelled by the customer
+85,80,5357,2022-10-24,Cancelled by the customer
+86,86,5357,2022-02-19,Success
+87,11,5160,2022-09-27,Cancelled by the customer
+88,129,5122,2022-08-06,Rejected by the agent
+89,40,5040,2022-01-21,Success
+90,127,5043,2022-06-05,Success
+91,26,5357,2022-03-17,Success
+92,139,5218,2022-06-06,Success
+93,57,5336,2022-07-30,Success
+94,13,5283,2022-01-26,Success
+95,89,5079,2022-03-08,Cancelled by the customer
+96,23,5027,2022-06-18,Rejected by the agent
+97,149,5016,2022-01-31,Success
+98,122,5030,2022-09-05,Cancelled by the customer
+99,147,5046,2022-10-04,Success
+100,106,5420,2022-07-13,Success
+101,35,5038,2022-05-29,Success
+102,97,5305,2022-05-07,Rejected by the agent
+103,79,5243,2022-02-20,Success
+104,135,5019,2022-07-02,Success
+105,20,5259,2022-10-05,Success
+106,19,5097,2022-06-03,Success
+107,16,5363,2022-04-23,Success
+108,3,5141,2022-02-10,Rejected by the agent
+109,89,5117,2022-10-17,Success
+110,11,5117,2022-05-25,Success
+111,75,5218,2022-02-17,Success
+112,26,5227,2022-02-20,Success
+113,58,5118,2022-06-21,Cancelled by the customer
+114,91,5371,2022-01-21,Rejected by the agent
+115,58,5447,2022-04-17,Success
+116,103,5442,2022-09-01,Success
+117,8,5289,2022-09-04,Success
+118,32,5427,2022-10-11,Success
+119,144,5436,2022-01-27,Cancelled by the customer
+120,99,5169,2022-02-19,Rejected by the agent
+121,93,5081,2022-07-19,Success
+122,60,5449,2022-04-21,Success
+123,87,5288,2022-06-15,Success
+124,114,5438,2022-09-24,Cancelled by the customer
+125,60,5006,2022-06-02,Success
+126,127,5213,2022-02-02,Cancelled by the customer
+127,68,5077,2022-06-20,Cancelled by the customer
+128,72,5152,2022-08-06,Success
+129,137,5259,2022-08-21,Success
+130,107,5159,2022-06-07,Success

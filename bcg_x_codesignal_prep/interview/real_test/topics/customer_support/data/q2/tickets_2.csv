@@ -1,0 +1,131 @@
+ticket_id,agent_id,customer_id,date,status,clarity_upvote_given,politeness_upvote_given,resolution_speed_upvote_given,follow_up_upvote_given,complaint_given
+131,5,5090,2022-09-09,Success,True,False,True,False,True
+132,137,5314,2022-05-05,Success,False,True,False,True,False
+133,86,5339,2022-03-05,Success,True,False,True,True,False
+134,14,5320,2022-10-11,Success,False,False,False,True,False
+135,51,5263,2022-06-26,Success,False,True,False,True,False
+136,59,5035,2022-07-13,Success,False,False,False,False,False
+137,79,5475,2022-01-20,Success,False,True,True,True,False
+138,50,5047,2022-02-13,Success,False,True,False,True,False
+139,6,5141,2022-10-18,Success,True,False,False,True,False
+140,26,5114,2022-09-17,Success,False,True,False,True,False
+141,17,5303,2022-06-30,Success,False,False,True,False,False
+142,134,5262,2022-09-24,Rejected by the agent,False,True,True,True,True
+143,1,5135,2022-07-06,Success,True,False,True,True,False
+144,3,5438,2022-04-02,Success,False,False,True,False,False
+145,67,5429,2022-05-03,Cancelled by the customer,False,False,False,False,False
+146,83,5481,2022-05-09,Success,True,True,False,True,False
+147,84,5258,2022-10-17,Success,False,False,False,True,False
+148,120,5073,2022-03-19,Success,False,False,False,True,False
+149,68,5095,2022-08-05,Success,True,True,True,True,True
+150,90,5461,2022-07-15,Success,True,True,True,False,False
+151,112,5178,2022-04-04,Success,False,False,False,True,False
+152,99,5336,2022-04-03,Success,False,False,False,False,False
+153,150,5033,2022-07-06,Success,False,True,False,False,False
+154,109,5364,2022-03-14,Success,True,True,False,True,False
+155,139,5416,2022-10-23,Success,True,False,True,False,True
+156,122,5419,2022-06-21,Success,False,False,True,True,False
+157,90,5069,2022-09-01,Success,True,True,False,False,False
+158,110,5186,2022-03-07,Success,True,True,False,False,False
+159,33,5496,2022-01-07,Success,True,False,False,False,False
+160,146,5143,2022-02-15,Success,False,True,False,True,False
+161,130,5465,2022-03-18,Success,False,False,True,True,False
+162,78,5489,2022-04-19,Success,False,False,False,True,False
+163,60,5077,2022-06-16,Success,True,True,True,True,False
+164,57,5137,2022-07-11,Rejected by the agent,False,True,False,True,False
+165,100,5455,2022-07-05,Success,False,True,True,False,False
+166,121,5266,2022-02-16,Success,True,False,False,False,False
+167,15,5284,2022-03-04,Success,True,True,False,False,False
+168,110,5429,2022-08-31,Success,True,True,False,False,False
+169,71,5418,2022-06-01,Success,True,True,True,True,False
+170,60,5226,2022-10-05,Success,True,False,False,True,False
+171,66,5337,2022-05-20,Success,False,False,True,False,True
+172,48,5151,2022-04-29,Cancelled by the customer,False,False,False,True,False
+173,47,5380,2022-04-10,Success,True,False,False,True,False
+174,106,5159,2022-01-27,Success,True,False,True,True,False
+175,11,5471,2022-06-16,Success,False,False,False,True,False
+176,131,5000,2022-07-17,Success,True,False,False,False,False
+177,74,5117,2022-05-13,Success,False,False,False,True,False
+178,44,5278,2022-06-14,Rejected by the agent,False,True,True,True,False
+179,144,5473,2022-01-15,Cancelled by the customer,True,False,False,True,False
+180,33,5212,2022-04-24,Success,True,True,True,False,False
+181,39,5231,2022-06-20,Success,True,True,True,True,False
+182,146,5416,2022-10-22,Success,False,True,True,False,False
+183,88,5115,2022-08-29,Success,False,True,False,False,False
+184,42,5092,2022-09-02,Success,False,False,True,False,False
+185,148,5246,2022-06-17,Success,True,False,False,True,False
+186,51,5491,2022-05-18,Success,True,True,True,True,False
+187,46,5267,2022-03-03,Success,False,True,True,False,False
+188,39,5132,2022-07-03,Cancelled by the customer,True,False,False,False,False
+189,50,5388,2022-06-01,Success,True,True,False,False,True
+190,25,5398,2022-02-08,Success,False,False,True,False,False
+191,96,5114,2022-01-11,Success,False,False,True,False,False
+192,1,5061,2022-10-27,Success,False,True,True,True,False
+193,116,5083,2022-03-28,Success,True,True,False,False,False
+194,32,5296,2022-05-06,Success,True,True,False,True,False
+195,79,5060,2022-06-06,Success,False,True,False,False,False
+196,91,5129,2022-09-08,Success,True,False,True,True,False
+197,101,5253,2022-02-18,Rejected by the agent,True,True,False,False,False
+198,137,5493,2022-03-19,Success,True,True,True,False,False
+199,103,5336,2022-09-22,Success,True,True,True,True,True
+200,128,5080,2022-06-15,Cancelled by the customer,True,False,False,False,False
+201,70,5147,2022-04-25,Success,False,True,False,False,False
+202,104,5129,2022-05-02,Success,True,False,True,True,False
+203,3,5130,2022-06-06,Rejected by the agent,False,False,True,False,False
+204,42,5195,2022-02-22,Success,True,True,True,True,False
+205,128,5205,2022-02-09,Success,False,True,True,False,False
+206,129,5425,2022-10-21,Success,False,True,False,True,False
+207,57,5011,2022-03-06,Success,False,True,False,False,False
+208,61,5464,2022-08-20,Rejected by the agent,True,False,True,False,False
+209,59,5489,2022-05-08,Success,True,True,False,False,False
+210,66,5016,2022-02-27,Cancelled by the customer,True,False,True,False,False
+211,54,5003,2022-04-12,Cancelled by the customer,True,False,False,True,False
+212,84,5277,2022-09-16,Rejected by the agent,True,True,False,False,False
+213,135,5179,2022-06-28,Success,False,False,True,False,False
+214,114,5457,2022-05-18,Success,False,True,True,True,False
+215,4,5250,2022-03-04,Cancelled by the customer,True,True,True,True,False
+216,60,5006,2022-04-25,Success,False,True,False,False,False
+217,143,5355,2022-06-13,Success,True,False,True,False,False
+218,59,5303,2022-07-28,Success,False,True,True,True,False
+219,79,5442,2022-10-06,Success,True,False,True,True,True
+220,107,5162,2022-01-03,Success,False,False,False,True,False
+221,56,5343,2022-09-17,Success,True,False,True,False,False
+222,57,5091,2022-09-27,Success,True,True,False,False,False
+223,28,5009,2022-09-29,Success,True,True,True,True,False
+224,4,5166,2022-06-30,Success,False,True,False,False,False
+225,89,5123,2022-05-25,Success,False,True,True,True,False
+226,53,5382,2022-04-04,Rejected by the agent,False,True,True,False,False
+227,95,5065,2022-09-04,Rejected by the agent,True,False,True,False,False
+228,5,5342,2022-06-22,Success,True,False,False,False,False
+229,136,5484,2022-07-03,Success,True,True,False,False,False
+230,57,5465,2022-07-05,Cancelled by the customer,True,True,True,True,False
+231,48,5283,2022-05-06,Rejected by the agent,True,True,True,True,False
+232,23,5084,2022-09-22,Success,False,False,False,False,False
+233,99,5103,2022-05-11,Success,False,True,True,False,False
+234,60,5470,2022-10-24,Success,True,True,False,True,True
+235,36,5173,2022-09-21,Success,True,False,True,False,False
+236,130,5467,2022-06-18,Success,True,True,True,False,False
+237,56,5404,2022-03-23,Success,True,False,True,True,False
+238,18,5303,2022-07-01,Success,True,True,True,True,False
+239,35,5023,2022-04-25,Success,False,False,False,True,False
+240,5,5289,2022-03-10,Success,True,False,False,False,False
+241,115,5271,2022-01-17,Success,True,True,False,True,False
+242,141,5052,2022-09-21,Success,True,True,False,False,True
+243,116,5188,2022-09-22,Rejected by the agent,True,True,True,False,False
+244,105,5111,2022-01-28,Success,False,True,False,False,False
+245,82,5000,2022-01-11,Success,False,True,False,True,False
+246,81,5257,2022-02-02,Success,True,True,False,True,True
+247,46,5122,2022-05-08,Cancelled by the customer,True,False,False,False,False
+248,115,5252,2022-01-27,Success,True,True,True,True,False
+249,119,5180,2022-09-01,Success,True,False,False,True,False
+250,117,5044,2022-01-13,Cancelled by the customer,True,False,True,True,False
+251,108,5301,2022-02-11,Success,True,True,True,False,False
+252,141,5284,2022-09-04,Success,True,True,False,False,False
+253,70,5215,2022-01-20,Success,True,False,False,True,False
+254,17,5459,2022-07-18,Success,True,True,True,True,False
+255,23,5250,2022-03-11,Cancelled by the customer,True,False,True,False,False
+256,62,5205,2022-09-14,Success,False,False,False,True,False
+257,125,5240,2022-08-18,Success,True,True,True,True,False
+258,68,5026,2022-01-26,Success,False,True,False,True,False
+259,60,5445,2022-04-19,Success,False,False,True,True,False
+260,131,5085,2022-04-27,Success,True,True,False,True,False

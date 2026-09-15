@@ -1,0 +1,131 @@
+order_id,seller_id,buyer_id,date,status,item_quality_upvote_given,communication_upvote_given,packaging_upvote_given,shipping_speed_upvote_given,complaint_given
+131,76,5304,2022-04-10,Cancelled by the buyer,True,False,False,False,False
+132,130,5030,2022-09-07,Success,True,False,False,False,False
+133,82,5147,2022-06-30,Cancelled by the buyer,False,True,False,True,False
+134,47,5193,2022-06-19,Success,False,False,False,True,False
+135,103,5411,2022-06-07,Rejected by the seller,False,True,False,False,False
+136,84,5074,2022-08-18,Success,False,True,True,True,False
+137,111,5463,2022-06-10,Success,True,True,False,True,False
+138,56,5303,2022-01-01,Success,True,False,True,True,False
+139,102,5133,2022-01-10,Success,True,False,True,True,False
+140,65,5271,2022-04-26,Cancelled by the buyer,True,False,True,False,False
+141,30,5419,2022-02-15,Success,False,True,False,False,False
+142,65,5212,2022-10-14,Success,False,True,False,False,False
+143,125,5150,2022-03-23,Cancelled by the buyer,False,False,False,False,False
+144,24,5499,2022-09-13,Success,True,True,False,True,False
+145,94,5270,2022-07-20,Success,True,True,True,True,False
+146,121,5280,2022-01-28,Rejected by the seller,True,False,True,True,False
+147,121,5188,2022-06-07,Success,False,True,True,True,False
+148,93,5388,2022-02-09,Success,False,True,False,True,False
+149,114,5345,2022-07-29,Cancelled by the buyer,True,False,False,False,False
+150,123,5083,2022-04-18,Rejected by the seller,False,False,True,True,False
+151,86,5459,2022-05-18,Success,True,False,False,False,False
+152,68,5175,2022-01-12,Success,True,False,True,False,False
+153,113,5321,2022-09-12,Success,True,True,True,False,False
+154,145,5014,2022-10-06,Success,False,True,True,False,False
+155,97,5042,2022-04-27,Cancelled by the buyer,True,False,True,False,False
+156,32,5357,2022-10-05,Success,True,True,False,False,False
+157,5,5274,2022-01-22,Success,True,False,False,True,True
+158,145,5381,2022-06-15,Cancelled by the buyer,True,True,False,False,False
+159,121,5240,2022-09-03,Success,False,False,True,False,False
+160,122,5119,2022-07-19,Success,True,True,True,False,False
+161,111,5474,2022-01-16,Success,True,False,False,False,True
+162,91,5473,2022-01-08,Success,False,False,True,False,False
+163,84,5052,2022-10-20,Success,False,True,True,False,False
+164,14,5270,2022-03-28,Success,True,True,False,False,False
+165,142,5498,2022-08-17,Success,True,False,True,False,False
+166,148,5033,2022-03-17,Cancelled by the buyer,True,True,False,True,False
+167,79,5002,2022-06-21,Success,False,False,True,False,False
+168,99,5070,2022-10-03,Success,True,False,True,False,False
+169,137,5000,2022-10-06,Success,False,False,True,False,True
+170,28,5394,2022-03-02,Success,True,True,False,True,False
+171,75,5101,2022-06-29,Cancelled by the buyer,True,True,False,False,False
+172,51,5475,2022-03-26,Cancelled by the buyer,True,False,True,True,False
+173,42,5143,2022-08-08,Success,False,False,False,True,False
+174,94,5155,2022-05-19,Success,False,True,True,True,False
+175,17,5050,2022-02-14,Cancelled by the buyer,True,False,False,False,False
+176,19,5192,2022-01-18,Success,False,False,False,True,False
+177,30,5488,2022-04-03,Success,True,True,False,True,False
+178,53,5137,2022-03-11,Success,False,True,True,False,False
+179,90,5253,2022-08-08,Success,False,False,False,True,False
+180,10,5040,2022-10-05,Success,False,True,True,False,False
+181,119,5229,2022-01-01,Success,True,True,True,True,False
+182,108,5333,2022-09-12,Success,True,True,False,False,False
+183,32,5287,2022-08-31,Success,False,True,True,True,False
+184,123,5253,2022-04-17,Success,True,False,False,True,False
+185,81,5247,2022-04-23,Success,True,False,False,True,False
+186,70,5394,2022-08-01,Success,True,False,False,False,False
+187,28,5342,2022-06-26,Cancelled by the buyer,False,False,False,True,False
+188,56,5153,2022-07-12,Success,False,False,True,False,False
+189,92,5246,2022-08-11,Success,True,True,True,True,False
+190,63,5427,2022-07-09,Success,True,False,False,True,False
+191,68,5395,2022-06-18,Success,True,False,False,False,False
+192,6,5245,2022-01-31,Success,True,False,True,True,False
+193,11,5368,2022-06-09,Success,True,False,False,True,True
+194,3,5281,2022-04-20,Success,False,True,True,False,False
+195,52,5148,2022-08-09,Success,True,False,True,False,False
+196,114,5152,2022-04-27,Success,True,False,False,False,False
+197,112,5241,2022-06-02,Rejected by the seller,False,False,True,False,False
+198,99,5281,2022-03-24,Cancelled by the buyer,True,True,False,False,False
+199,55,5367,2022-04-29,Success,True,False,False,False,False
+200,29,5133,2022-06-27,Success,True,False,True,True,False
+201,33,5380,2022-09-14,Success,True,False,False,False,False
+202,2,5392,2022-02-23,Success,False,False,True,False,False
+203,34,5003,2022-07-03,Success,False,False,False,True,False
+204,6,5112,2022-03-24,Success,False,False,True,True,False
+205,22,5410,2022-09-01,Success,True,False,True,False,False
+206,142,5249,2022-08-20,Success,False,True,True,True,False
+207,134,5326,2022-08-02,Success,True,True,False,True,False
+208,24,5391,2022-06-27,Success,False,False,True,True,False
+209,31,5339,2022-09-23,Success,True,False,False,False,False
+210,87,5139,2022-01-10,Success,False,True,True,True,False
+211,12,5283,2022-04-10,Success,True,False,True,True,False
+212,21,5341,2022-01-20,Success,True,True,True,True,False
+213,65,5371,2022-08-22,Success,True,False,True,True,True
+214,77,5031,2022-08-25,Success,False,True,False,False,False
+215,107,5204,2022-09-16,Success,True,False,False,False,False
+216,105,5498,2022-01-01,Success,True,True,True,True,False
+217,118,5357,2022-07-09,Success,True,False,True,False,False
+218,76,5076,2022-05-02,Success,False,False,True,True,False
+219,41,5183,2022-05-29,Success,True,True,True,True,False
+220,52,5001,2022-06-04,Success,True,True,True,False,False
+221,111,5080,2022-01-03,Rejected by the seller,True,False,False,False,False
+222,14,5455,2022-08-13,Cancelled by the buyer,True,True,True,True,False
+223,83,5498,2022-08-30,Success,False,False,False,True,False
+224,30,5042,2022-03-16,Success,True,False,False,False,False
+225,16,5040,2022-02-06,Success,False,False,False,False,False
+226,28,5133,2022-03-02,Success,True,False,False,False,False
+227,51,5320,2022-10-22,Success,False,True,False,True,False
+228,51,5425,2022-06-19,Success,False,False,False,True,False
+229,40,5362,2022-07-22,Success,False,False,False,False,False
+230,150,5100,2022-09-24,Success,False,False,True,True,False
+231,45,5370,2022-07-26,Success,True,True,True,True,True
+232,108,5409,2022-01-03,Success,True,False,True,True,False
+233,46,5305,2022-08-21,Success,True,False,False,True,False
+234,126,5418,2022-08-04,Cancelled by the buyer,True,True,False,False,False
+235,100,5274,2022-06-27,Success,False,False,False,True,False
+236,79,5164,2022-06-05,Success,True,True,False,True,False
+237,71,5360,2022-08-14,Success,True,True,True,True,False
+238,66,5166,2022-03-12,Cancelled by the buyer,True,True,False,False,False
+239,27,5205,2022-03-09,Success,False,True,True,True,False
+240,146,5153,2022-03-11,Success,True,False,True,True,False
+241,132,5250,2022-04-15,Rejected by the seller,False,True,False,True,False
+242,3,5036,2022-07-09,Success,True,True,False,False,False
+243,84,5341,2022-09-19,Success,True,True,True,True,False
+244,52,5275,2022-02-09,Success,True,True,False,True,False
+245,143,5374,2022-01-08,Success,True,True,False,False,False
+246,38,5017,2022-09-04,Success,False,True,True,True,False
+247,144,5343,2022-06-12,Success,True,True,False,False,False
+248,144,5263,2022-01-05,Success,False,False,True,False,True
+249,120,5171,2022-09-24,Success,True,True,False,False,False
+250,94,5133,2022-02-05,Rejected by the seller,True,True,False,True,False
+251,4,5044,2022-05-05,Success,False,True,False,True,False
+252,91,5301,2022-10-10,Success,False,True,False,False,False
+253,23,5194,2022-05-06,Success,False,True,True,True,False
+254,37,5275,2022-02-03,Success,True,False,False,True,True
+255,22,5309,2022-06-13,Success,False,True,True,False,False
+256,42,5498,2022-02-02,Success,True,True,False,True,False
+257,30,5243,2022-01-24,Cancelled by the buyer,False,False,True,False,False
+258,83,5186,2022-08-17,Success,True,False,False,False,False
+259,141,5275,2022-06-13,Success,True,True,False,False,False
+260,34,5454,2022-01-03,Success,True,False,False,False,False
